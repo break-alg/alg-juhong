@@ -36,7 +36,7 @@ public class weekly_04 {
                     max = score;
                     id = i;
                 } else if (max == score) {
-                    id = (table[id].split(" ")[0].compareTo(scoreTable[0]) < 0) ? i : id;
+                    id = (table[id].split(" ")[0].compareTo(scoreTable[0]) > 0) ? i : id;
                 }
             }
         }
